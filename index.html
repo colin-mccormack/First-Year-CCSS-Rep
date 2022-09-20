@@ -11,6 +11,78 @@
 -->
 
 <body> 
+
+    <script>
+        var i = 0;
+        var txt = 'Colin for First Year Rep'; 
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("text").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
+
+    <div class="bg">
+        <div class="centered fs-1 text-opacity-75" id="text">Vote</div>
+        <section id="section01" class="demo">
+            <a href="#section02"><span></span>Scroll</a>
+        </section>
+    </div>
+
+    <section id="section02">
+        <br>
+        <div id="Colin McCormack" class="position fyr">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-5 col-sm-4">
+                        <img src=colin.jpg alt=Colin class="img-fluid w-100" alt="card-horizontal-image">
+                    </div>
+                    <div class="col-7 col-sm-8">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h2 id=hello>Hello!</h2>
+                                <h3 id=my-name-is-colin-and-i-am-running-to-be-your-first-year-representative>My name is Colin, and I am running to be your First Year Representative!</h3>
+                                <p>I &rsquo;d like to be your first year representative in the CCSS, so I can collaborate with current members, as well as with Industry partners, to offer:</p>
+                                <ul>
+                                    <li>more workshops,</li>
+                                    <li>more coding challenges,</li>
+                                    <li>and more events</li>
+                                    </ul>
+                                <p>
+                                    As an off-campus student, one of the first things I &rsquo;d like to do is to <strong>coordinate a physical space on campus where students can attend their first year computer science lectures that have been moved online (1405 - sections A, B, C), by reaching out to Professors and the Computer Science department.</strong>
+                                </p>
+                                <p>I &rsquo;ll always be open to suggestions and feedback from fellow students on the types of activities and issues that are important to you.</p>
+                                <p>About me:</p>
+                                <ul>
+                                    <li>I live off campus and hate the 88</li>
+                                    <li>
+                                        I &rsquo;m passionate about AWS, <a href=https://github.com/colin-mccormack>my personal projects</a>
+                                        , and soccer (specifically FC Bayern Munich)
+                                    </li>
+                                    <li>
+                                        I like using JetBrains editors, and I &rsquo;m a big fan of the <a href=https://www.jetbrains.com/community/education/#students>JetBrains Student Program</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=SsoOG6ZeyUI">Tabs > Spaces</a>
+                                    </li>
+                                </ul>
+                            </p>
+                            <p class="card-text"><small class="text-muted">Voting will take place September 26th - 28th</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+    </section>
+
+
+
+            <!--
+
     <br>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -60,7 +132,6 @@
             </div>
         </div>
 
-        <!--
         <h2>Colin McCormack</h2>
         <p>
             <p>
